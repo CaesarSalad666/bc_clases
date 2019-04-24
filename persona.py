@@ -1,8 +1,10 @@
 
 class Persona:
     nombre = None
-    def __init__(self, un_nombre):
+    edad = None
+    def __init__(self, un_nombre, una_edad):
         self.nombre = un_nombre
-        print("Hola, me llamo", self.nombre,"y sufro de adiccion a las drogas")
+        self.edad = una_edad
+        print("Hola, me llamo", self.nombre,"tengo", self.edad, "años y sufro de adiccion a las drogas. Hetama asufri.")
 
-el_susodicho = Persona("Pedro")
+el_susodicho = Persona("Pedro", 28)
