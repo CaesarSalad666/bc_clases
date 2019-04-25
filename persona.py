@@ -14,7 +14,7 @@ class Persona:
         self.edad = cantidad
 
     def cumpleaños(self):
-        self.edad = self.edad +1
+        self.edad = self.edad + 1
         
 individuo = Persona("Pedro", 27)
 
