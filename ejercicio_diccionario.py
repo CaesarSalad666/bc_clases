@@ -13,6 +13,6 @@ print(persona["edad"])
 print(persona["estatura"])
 
 persona["edad"] = input("Ingresar edad")
-print(persona)
+print(persona["edad"])
 persona["hobbie"] = ["dibujo","soccer","baile","artes marciales"]
-print(persona)
+print(persona["hobbie"][3])
